@@ -1,0 +1,19 @@
+{
+  "name": "shopterra-styles",
+  "version": "1.0.0",
+  "description": "Shared SCSS between seller and buyer side of shopterra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/superseriouscompany/shopterra-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superseriouscompany/shopterra-styles/issues"
+  },
+  "homepage": "https://github.com/superseriouscompany/shopterra-styles#readme"
+}
