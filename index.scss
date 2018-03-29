@@ -1,3 +1,25 @@
 @import "variables.scss";
 
-* { background-color: hotpink !important; }
+button {
+  background-color: $teal;
+  color: black;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 36px;
+  margin: calc(12px / 2) calc(12px * 2);
+  transition: background-color 0.5s linear;
+
+  @include desktop() {
+    width: 30%;
+    margin: calc(#{$padding} / 2 ) $padding;
+  }
+}
+
+button:hover, .button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  background-color: #54BDC5;
+}
