@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+.Header {
+  padding: calc(#{$padding} * 2) 0 $padding 0;
+  border-bottom: 1px solid $lightGray;
+
+  .logo {
+    width: 150px;
+  }
+}
