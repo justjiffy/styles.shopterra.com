@@ -1,12 +1,10 @@
 @import "variables.scss";
 
 .About {
-  background-image: url("../images/background_1_mobile.png");
   background-repeat: no-repeat;
   background-size: 110%;
   margin-bottom: calc(#{$padding}*2) !important;
   @include desktop() {
-    background-image: url("../images/background_1_desktop.png");
     padding-top: calc(#{$padding} * 4) !important;
     background-size: 165%;
   }
@@ -72,7 +70,6 @@
     margin: 0;
   }
   li {
-    list-style-image: url("../images/about/icon_check.svg");
     list-style-position: inside;
     text-indent: -22px;
     padding-bottom: $padding;
@@ -106,8 +103,9 @@
       text-align: left;
     }
   }
-  .rating {
-    width: 64px;
+  img {
+    width: 64px !important;
+    margin-bottom: 0 !important;
   }
   .pink { color: $darkPink; fill: $darkPink; }
   .green { color: $teal; fill: $teal; }
@@ -147,9 +145,8 @@
     }
   }
   .content {
-    text-align: left;
-
     @include desktop() {
+      text-align: left;
       width: 50%;
       margin: calc(#{$padding} * 2);
     }
@@ -161,7 +158,6 @@
 }
 
 .Why {
-  background-image: url("../images/background_2.jpg");
   background-position: 50% 0%;
   background-size: 350%;
   background-repeat: no-repeat;
